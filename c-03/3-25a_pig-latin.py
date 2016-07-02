@@ -1,10 +1,7 @@
-# Chapter 3, ex. 25a
-
-# Import
 import re
 
-# Function
-def wrd_to_pigLatin(word):
+
+def wrd_to_piglatin(word):
     const = re.findall(r'^[bcdfghjklmnpqrstvwxyz]+', word.lower())
     if len(const) == 0:
         w = word + 'ay'
@@ -13,5 +10,4 @@ def wrd_to_pigLatin(word):
         w = w + const[0] + 'ay'
     return  w
 
-# Main
-print wrd_to_pigLatin('by')
+print(wrd_to_piglatin('by'))

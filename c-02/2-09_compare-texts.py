@@ -1,26 +1,24 @@
-# Chapter 2 - exercise 9
-
-# Imports
-import nltk
-from nltk.book import*
+from nltk.book import *
 
 # Compare two texts
-print text1, '\n', 'Vocabulary:', len(set(text1)), '\n', 'Vocabulary Richness:', 1.0*len(text1)/len(set(text1))
-print text5, '\n', 'Vocabulary:', len(set(text5)), '\n', 'Vocabulary Richness:', 1.0*len(text5)/len(set(text5))
+print(text1, '\n', 'Vocabulary:', len(set(text1)), '\n', 'Vocabulary Richness:',
+      1.0 * len(text1) / len(set(text1)))
+print(text5, '\n', 'Vocabulary:', len(set(text5)), '\n', 'Vocabulary Richness:',
+      1.0 * len(text5) / len(set(text5)), '\n')
 
-# Pairs of Words with different meaning
-# chat and join, game and 
-print text1.concordance('chat')
-print text5.concordance('chat')
+# Pairs of words with different meaning
+print('\n< chat >')
+print(text1.concordance('chat', lines=5))
+print(text5.concordance('chat', lines=5))
 
-# print text1.concordance('join')
-# print text5.concordance('join')
+print('\n< join >')
+print(text1.concordance('join', lines=5))
+print(text5.concordance('join', lines=5))
 
-# text1.concordance('game')
-# text5.concordance('game')
+print('\n< game >')
+print(text1.concordance('game', lines=5))
+print(text5.concordance('game', lines=5))
 
-# text1.concordance('text')
-# text5.concordance('text')
-
-#* Remove the # from the four print statements above to
-#* understand why the words differ from each text
+print('\n< text >')
+print(text1.concordance('text', lines=5))
+print(text5.concordance('text', lines=5))
