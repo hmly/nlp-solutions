@@ -1,0 +1,5 @@
+# Chapter 1, exercise 27
+__________________________________________________________________________
+
+>>> def vocab_size(text):
+	return len(sorted(set(text))

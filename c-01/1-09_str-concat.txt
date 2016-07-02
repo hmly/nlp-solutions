@@ -1,0 +1,26 @@
+# Chapter 1, exercise 9
+__________________________________________________________________________
+
+# A
+>>> comment = 'Trying to write any interesting string only to end up with this!?'
+
+>>> comment
+'Trying to write any interesting string only to end up with this!?'
+
+>>> print comment
+Trying to write any interesting string only to end up with this!?
+
+__________________________________________________________________________
+
+# B
+>>> comment + comment
+'Trying to write any interesting string only to end up with this!?Trying to write any interesting string only to end up with this!?'
+
+>>> comment * 3
+'Trying to write any interesting string only to end up with this!?Trying to write any interesting string only to end up with this!?Trying to write any interesting string only to end up with this!?'
+
+>>> comment + ' ' + comment
+'Trying to write any interesting string only to end up with this!? Trying to write any interesting string only to end up with this!?'
+
+>>> (comment + ' ') * 3
+'Trying to write any interesting string only to end up with this!? Trying to write any interesting string only to end up with this!? Trying to write any interesting string only to end up with this!? '

@@ -1,0 +1,14 @@
+# Chapter 2 - exercise 15 Test Output
+__________________________________________________________________________
+
+>>> words_3[:50]
+['the', ',', '.', 'of', 'and', 'to', 'a', 'in', 'that', 'is', 'was', 'for', '``', "''", 'The', 'with', 'it', 'as', 'he', 'his', 'on', 'be', ';', 'I', 'by', 'had', 'at', '?', 'not', 'are', 'from', 'or', 'this', 'have', 'an', 'which', '--', 'were', 'but', 'He', 'her', 'one', 'they', 'you', 'all', 'would', 'him', 'their', 'been', ')']
+
+>>> fd['the']
+62713
+
+>>> words_3[-50:]
+['well-established', 'well-fed', 'well-made', 'well-meaning', 'westerly', "what's-his-name", 'whir', 'whirl', 'whiskers', 'white-clad', 'whitened', 'wickedness', 'wide-ranging', 'widest', 'wielded', 'wiggled', 'wildcat', 'wilt', 'winder', 'windowless', 'winged', 'winnings', 'withstand', 'withstood', 'wobble', 'woo', 'woodsmoke', 'woolly', "workers'", 'working-class', 'workouts', 'world-famous', 'world-renowned', 'worshiping', 'worthless', 'wove', 'wrangler', 'wreaths', "writers'", 'wrought', 'wryly', 'yachts', 'yearned', 'yeast', 'yellow-dwarf', 'yellow-green', 'yesteryear', 'yoke', 'zealously', 'zones']
+
+>>> fd['zones']
+3

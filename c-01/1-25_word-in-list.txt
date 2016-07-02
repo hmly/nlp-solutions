@@ -1,0 +1,23 @@
+# Chapter 1 - exercises 25
+__________________________________________________________________________
+
+# A
+>>> sent = ['she', 'sells', 'sea', 'shells', 'by', 'the', 'sea', 'shore']
+
+>>> for word in sent:
+	if 'sh' in word:
+		print word	
+
+she
+shells
+shore
+__________________________________________________________________________
+
+# B
+>>> for word in sent:
+	if len(word) > 4:
+		print word
+		
+sells
+shells
+shore

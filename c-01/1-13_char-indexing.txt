@@ -1,0 +1,15 @@
+# Chapter 1, exercise 13
+# sent1[2][2] when executed, the element at index 2(Ishmael) is examined and we 
+# want the character at index 2 of Ishmael thus, 'h' is printed since 'I' is at # index 0.__________________________________________________________________________
+
+>>> sent1
+['Call', 'me', 'Ishmael', '.']
+
+>>> sent1[2][2]
+'h'
+
+>>> sent1[3][0]
+'.'
+
+>>> sent1[1][1]
+'e'

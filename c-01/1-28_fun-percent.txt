@@ -1,0 +1,5 @@
+# Chapter 1 - exercises 28
+__________________________________________________________________________
+
+>>> def percent(word, text):
+	return 100.0*text.count('word')/len(text)

@@ -1,0 +1,27 @@
+# Chapter 2 - exercise 22 Test Output
+__________________________________________________________________________
+
+>>> 
+*** Introductory Examples for the NLTK Book ***
+Loading text1, ..., text9 and sent1, ..., sent9
+Type the name of the text or sentence to view it.
+Type: 'texts()' or 'sents()' to list the materials.
+text1: Moby Dick by Herman Melville 1851
+text2: Sense and Sensibility by Jane Austen 1811
+text3: The Book of Genesis
+text4: Inaugural Address Corpus
+text5: Chat Corpus
+text6: Monty Python and the Holy Grail
+text7: Wall Street Journal
+text8: Personals Corpus
+text9: The Man Who Was Thursday by G . K . Chesterton 1908
+
+>>> new_text = hedge(text1)
+
+>>> new_text[:50]
+['[', 'Moby', 'Dick', 'like', 'by', 'Herman', 'Melville', 'like', '1851', ']', 'ETYMOLOGY', 'like', '.', '(', 'Supplied', 'like', 'by', 'a', 'Late', 'like', 'Consumptive', 'Usher', 'to', 'like', 'a', 'Grammar', 'School', 'like', ')', 'The', 'pale', 'like', 'Usher', '--', 'threadbare', 'like', 'in', 'coat', ',', 'like', 'heart', ',', 'body', 'like', ',', 'and', 'brain', 'like', ';', 'I']
+
+>>> new_text_2 = hedge(text6)
+
+>>> new_text_2[:50]
+['SCENE', '1', ':', 'like', '[', 'wind', ']', 'like', '[', 'clop', 'clop', 'like', 'clop', ']', 'KING', 'like', 'ARTHUR', ':', 'Whoa', 'like', 'there', '!', '[', 'like', 'clop', 'clop', 'clop', 'like', ']', 'SOLDIER', '#', 'like', '1', ':', 'Halt', 'like', '!', 'Who', 'goes', 'like', 'there', '?', 'ARTHUR', 'like', ':', 'It', 'is', 'like', 'I', ',']
