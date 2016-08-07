@@ -8,3 +8,5 @@ fd = nltk.FreqDist(brown.words())
 for w in fd.keys():
     if fd[w] >= 3:
         words3.append(w)
+
+print(words3[:100])
